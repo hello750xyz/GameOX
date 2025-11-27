@@ -74,7 +74,7 @@ def draw_menu():
 
     # viết dòng note
     note = [
-        "DAT studio"
+        "Nhom 1"
     ]
     for i, ln in enumerate(note):
         txt = FONT_SMALL.render(ln,True,cauhinh.TEXT_COLOR)
@@ -322,4 +322,5 @@ while True:
         clock.tick(5)
     else:
         clock.tick(60)
+
 
